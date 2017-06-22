@@ -1,0 +1,8 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path class="less" d="M84.3 95.7L75 88.4l-9.3-7.3 9.3-7.4 9.3-7.3M115.7 95.7l9.3-7.3 9.3-7.3-9.3-7.4-9.3-7.3"/>
+  <path class="close" d="M107.3 58.2L93.9 104"/>
+  <path class="baseFill" d="M25.3 124h149.4v17.8H25.3zM88.3 141.8h23.3v21.9H88.3z"/>
+  <path class="monitor" d="M25.3 36.2h149.4v105.6H25.3zM25.3 124h149.4"/>
+  <path class="base" d="M88.3 141.8h23.3v21.9H88.3z"/>
+  <path class="bottom" d="M47.9 163.8h104.2"/>
+</svg>

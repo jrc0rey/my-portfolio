@@ -1,0 +1,1343 @@
+body{
+	margin:0;
+	/*min-width: 450px;*/
+}
+
+.main{
+	margin-top: 75px;
+	display: flex;
+	justify-content: center;
+	// background-color: red;
+	width: 100%;
+}
+
+.intro{
+	line-height: 40px;
+	margin: 0;
+	width: 500px;
+	// background-color: yellow;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+}
+
+@media screen and (max-width:320px) {
+	.intro{
+		font-size: 26px;
+	}
+}
+
+.name{
+	text-decoration: none;
+    border-bottom: 3px solid black;
+}
+
+.name:hover{
+	border-bottom: 3px solid #FF9999;
+}
+
+.email{
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: grey;
+	text-decoration: none;
+}
+
+.email:hover{
+	color: #FF9999;
+}
+
+.resume{
+	text-decoration: none;
+	color: black;
+}
+
+
+.resume:hover{
+	color: #FF9999;
+}
+
+.border, .borderTwo, .borderThree, .borderFour, .borderFive, .borderSix, .borderSeven, .borderEight{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px dotted black;
+}
+
+
+.social{
+	margin-top: 12px;
+	display: flex;
+	justify-content: center;
+	/*// background-color: red;*/
+}
+
+.icon-contain{
+	width: 500px;
+	/*// background-color: yellow;*/
+}
+
+.insta, .linkedin{
+	margin-left: 10px;
+}
+
+.sectionOne, .sectionTwo, .sectionThree{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/*// background-color: red;*/
+}
+
+.descrip{
+	width: 500px;
+	margin-top: 20px;
+
+}
+
+h3{
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 11px;
+	color: grey;
+	margin: 0;
+}
+
+
+.links{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	// background-color: red;
+	width: 100%;
+	height: 110px;
+}
+
+.linksContain{
+	display: flex;
+	width: 500px;
+	height: 200px;
+	// background-color: green;
+}
+
+.linkOne{
+	width: 120px;
+	height: 150px;
+	// background-color: yellow;
+}
+
+.linkTwo, .linkThree, .linkFour{
+	margin-left: 30px;
+	width: 120px;
+	height: 150px;
+	// background-color: yellow;
+}
+
+@media screen and (max-width:550px) {
+	.linksContain{
+	z-index: 2000;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 500px;
+	// background-color: green;
+	}
+
+	.linkOne{
+	width: 120px;
+	height: 150px;
+	// background-color: yellow;
+	}
+
+	.linkTwo, .linkThree, .linkFour{
+	margin-left: 0;
+	margin-top: 10px;
+	width: 120px;
+	height: 150px;
+	// background-color: yellow;
+	}
+
+	.borderTwo{
+	z-index: 1000;
+	/*background-color: red;*/
+	width: 100%;
+	height: 523px;
+	border-bottom: 1px dotted black;
+	}
+}
+
+.web{
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 20px;
+}
+
+.webText{
+	margin:0;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+	color: black;
+}
+
+.art-direction{
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 20px;
+}
+
+.art-direction-text{
+	margin:0;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+	color: black;
+}
+
+.design{
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 20px;
+}
+
+.design-text{
+	margin:0;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+	color: black;
+}
+
+.photography{
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 20px;
+}
+
+.photography-text{
+	margin:0;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+	color: black;
+}
+
+.d{
+	display: none;
+}
+
+/*Monitor*/
+
+.less{
+	stroke-dasharray: 50;
+	stroke-dashoffset: 0;
+	fill:none;
+	stroke:#FF9999;
+	stroke-width:7;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+	animation: draw-less 1s;
+	animation-play-state: paused;
+}
+
+
+@keyframes draw-less{
+	from{
+		stroke-dashoffset: -50;
+	}
+}
+
+
+.close{
+	stroke-dasharray: 53;
+	stroke-dashoffset: 0;
+	fill:none;
+	stroke:#FF9999;
+	stroke-width:7;stroke-linecap:round;
+	stroke-miterlimit:10;
+	animation: draw-close 1s;
+	animation-play-state: paused;
+}
+
+@keyframes draw-close{
+	from{
+		stroke-dashoffset: -53;
+	}
+}  
+
+
+.baseFill{
+	fill:#99DDFF;
+	animation: base-close 3s;
+	animation-play-state: paused;
+}
+
+@keyframes base-close{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}   
+
+.monitor{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:7;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+
+}
+
+
+.base{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:7;
+	stroke-miterlimit:10;
+} 
+
+.bottom{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:7;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
+}
+
+/*Pencil*/
+
+
+.eraser{
+	fill:#FF9999;
+	animation: eraser 3s;
+	animation-play-state: paused;
+}
+
+@keyframes eraser{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}    
+
+.yellow{
+    fill:#FFD580;
+    animation: eraser 3s;
+	animation-play-state: paused;
+}
+
+@keyframes yellow{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}   
+
+.tip{
+    fill:#231F20;
+    animation: tip 1s;
+    animation-play-state: paused;
+}
+
+@keyframes tip{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}    
+
+.pencilOutline{
+    fill:none;
+    stroke:#231F20;
+    stroke-width:7;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+
+@keyframes draw-pencil{
+	from{
+		stroke-dashoffset: 100;
+		stroke-dasharray: 2;
+	}
+	to{
+		stroke-dashoffset: 205;
+		stroke-dasharray: 52;
+	}
+}   
+
+.pencilLines{
+	fill:none;stroke:#231F20;
+	stroke-width:7;
+	stroke-miterlimit:10;
+	animation: draw-pencil 1s linear;
+	animation-play-state: paused;
+}
+
+
+/*Pen*/
+
+.nib{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:8;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+} 
+
+.nibBase{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:8;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
+} 
+
+.nibBaseFill{
+	fill:#99DDFF;
+	stroke:#231F20;
+	stroke-width:8;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+} 
+
+.nibVertLine{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:8;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+} 
+
+.nibCircle{
+	fill:#FF9999;
+	stroke:#231F20;
+	stroke-width:8;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+
+.eyeOutline{
+	fill:none;
+	stroke:#231F20;
+	stroke-width:7;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+} 
+
+.iris{
+	fill:#99DDFF;
+	stroke:#231F20;
+	stroke-width:7;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+} 
+
+.pupil{
+	fill:#231F20;
+}
+
+
+/*Blurb*/
+
+.blurb{
+	margin-top: 10px;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	color: black;
+}
+
+
+
+
+/*Web Dev*/
+
+.sectionFour{
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+}
+
+/*.scofflawDescrip,.apiAppDescrip{
+	width: 100%;
+	height: 300px;
+}*/
+
+.scofflawText{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: black;
+}
+
+.collection{
+	margin-top: 60px;
+	margin-bottom: 5px;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: black;
+}
+
+.greysite{
+	margin-top: 60px;
+	margin-bottom: 5px;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: black;
+}
+
+.tools{
+	margin-top: 10px;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 9px;
+	color: black;
+}
+
+.scofflawLink, .apiApp, .greysiteGame{
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	margin-top: 5px;
+	text-decoration: underline;
+	font-size: 12px;
+	color: black;
+}
+
+.webContain{
+	margin-left: 35px;
+	background-image: url("../images/web/scofflaw.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+
+.webContain2{
+	margin-top: 30px;
+	margin-left: 35px;
+	background-image: url("../images/web/api_collection.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+
+.webContain3{
+	margin-top: 30px;
+	margin-left: 35px;
+	background-image: url("../images/web/game.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+
+@media screen and (max-width:640px) {
+	.webContain2, .webContain3{
+	margin-left: 0;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.webContain{
+	margin-left: 0;
+	width: 100%;
+	height: 250px;
+	margin-top: 10px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.webContain, .webContain2, .webContain3{
+	margin-left: 0;
+	width: 100%;
+	height: 265px;
+	margin-top: 50px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.webContain, .webContain2, .webContain3{
+	margin-left: 0;
+	width: 100%;
+	height: 265px;
+	margin-top: 50px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.scofflawDescrip{
+	height: 90px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.apiAppDescrip{
+	height: 90px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.webContain, .webContain2, .webContain3{
+	margin-left: 0;
+	width: 100%;
+	height: 215px;
+	margin-top: 70px;
+	}
+}
+
+
+.backBtn, .backBtn2, .backBtn3{
+	margin-top: 20px;
+	letter-spacing: 0;
+	padding:0;
+	width: 100px;
+	height: 25px;
+
+}
+
+/*Art Direction*/
+
+.sectionFive{
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+}
+
+.featured{
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 9px;
+	color: grey;
+	margin-top: 20px;
+}
+
+
+.audibleOne{
+	margin-top: 20px;
+	background-image: url("../images/audible/audible1.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 500px;
+	/*background-color: red;*/
+
+}
+
+
+.audibleTwo{
+	margin-top: 20px;
+	background-image: url("../images/audible/audible2.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 500px;
+	/*background-color: red;*/
+
+}
+
+.audibleThree{
+	margin-top: 20px;
+	background-image: url("../images/audible/audible3.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 500px;
+	/*background-color: red;*/
+
+}
+
+
+@media screen and (max-width:768px) {
+	.audibleOne, .audibleTwo, .audibleThree{
+	height: 402px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.audibleOne, .audibleTwo, .audibleThree{
+	height: 335px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.audibleOne, .audibleTwo, .audibleThree{
+	height: 230px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.audibleOne, .audibleTwo, .audibleThree{
+	height: 219px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.audibleOne, .audibleTwo, .audibleThree{
+	height: 183px;
+	}
+}
+
+
+.bannerContain{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner{
+	text-decoration: underline;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 50px;
+	color: grey;
+	margin-top: 20px;
+}
+
+.banner:hover{
+	color: #FF9999;
+}
+
+@media screen and (max-width:414px) {
+	.banner{
+	font-size: 42px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.banner{
+	font-size: 35px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.bannerContain{
+	height: 190px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.banner{
+	font-size: 33px;
+	}
+}
+
+
+/*Hollywood*/
+
+.hwdOne{
+	margin-top: 20px;
+	background-image: url("../images/hwd/hwd-1.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.hwdTwo{
+	margin-top: 20px;
+	background-image: url("../images/hwd/hwd-2.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.hwdThree{
+	margin-top: 20px;
+	background-image: url("../images/hwd/hwd-3.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.hwdFour{
+	margin-top: 20px;
+	background-image: url("../images/hwd/hwd-4.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width:768px) {
+	.hwdOne, .hwdTwo, .hwdThree, .hwdFour{
+	height: 386px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.hwdOne, .hwdTwo, .hwdThree, .hwdFour{
+	height: 321px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.hwdOne, .hwdTwo, .hwdThree, .hwdFour{
+	height: 460px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.hwdOne, .hwdTwo, .hwdThree, .hwdFour{
+	height: 440px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.hwdOne, .hwdTwo, .hwdThree, .hwdFour{
+	height: 365px;
+	}
+}
+
+/*Virgin Mobile*/
+
+.virginOne{
+	margin-top: 20px;
+	background-image: url("../images/virgin/virgin-mobile1.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.virginTwo{
+	margin-top: 20px;
+	background-image: url("../images/virgin/virgin-mobile2.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width:768px) {
+	.virginOne, .virginTwo, .virginThree{
+		height: 477px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.virginOne, .virginTwo, .virginThree{
+	height: 395px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.virginOne, .virginTwo, .virginThree{
+		height: 272px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.virginOne, .virginTwo, .virginThree{
+		height: 259px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.virginOne, .virginTwo, .virginThree{
+		height: 217px;
+	}
+}
+
+/*CAF*/
+
+.cafOne{
+	margin-top: 20px;
+	background-image: url("../images/caf/caf-1.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.cafTwo{
+	margin-top: 20px;
+	background-image: url("../images/caf/caf-2.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.cafThree{
+	margin-top: 20px;
+	background-image: url("../images/caf/caf-3.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width:768px) {
+	.cafOne, .cafTwo, .cafThree{
+		height: 378px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.cafOne, .cafTwo, .cafThree{
+	height: 316px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.cafOne, .cafTwo, .cafThree{
+		height: 217px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.cafOne, .cafTwo, .cafThree{
+		height: 207px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.cafOne, .cafTwo, .cafThree{
+		height: 173px;
+	}
+}
+
+/*Movie Posters*/
+
+.poster1{
+	margin-top: 20px;
+	background-image: url("../images/posters/all-is-lost.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster2{
+	margin-top: 20px;
+	background-image: url("../images/posters/thin-red-line.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster3{
+	margin-top: 20px;
+	background-image: url("../images/posters/american-psycho.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster4{
+	margin-top: 20px;
+	background-image: url("../images/posters/layer-cake.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster5{
+	margin-top: 20px;
+	background-image: url("../images/posters/mad-men.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster6{
+	margin-top: 20px;
+	background-image: url("../images/posters/friday-the-13th.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width:768px) {
+	.poster1, .poster2, .poster3, .poster4, .poster5, .poster6{
+		height: 396px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.poster1, .poster2, .poster3, .poster4, .poster5, .poster6{
+	height: 329px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.poster1, .poster2, .poster3, .poster4, .poster5, .poster6{
+		height: 470px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.poster1, .poster2, .poster3, .poster4, .poster5, .poster6{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.poster1, .poster2, .poster3, .poster4, .poster5, .poster6{
+		height: 375px;
+	}
+}
+
+.poster7{
+	margin-top: 20px;
+	background-image: url("../images/posters/collateral.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster8{
+	margin-top: 20px;
+	background-image: url("../images/posters/the-leftovers.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.poster9{
+	margin-top: 20px;
+	background-image: url("../images/posters/heat.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width:768px) {
+	.poster7, .poster8, .poster9{
+		height: 461px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.poster7, .poster8, .poster9{
+		height: 385px;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.poster7, .poster8, .poster9{
+		height: 264px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.poster7, .poster8, .poster9{
+		height: 252px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.poster7, .poster8, .poster9{
+		height: 210px;
+	}
+}
+
+
+/*Design*/
+
+.sectionSix{
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+}
+
+.designOne{
+	margin-top: 20px;
+	background-image: url("../images/design/transistor.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	/*background-color: red;*/
+}
+
+@media screen and (max-width: 667px){
+	.designOne{
+		height: 370px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.designOne{
+		height: 370px;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.designOne{
+		height: 310px;
+	}
+}
+
+@media screen and (max-width: 412px){
+	.designOne{
+		height: 290px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	.designOne{
+		height: 240px;
+	}
+}
+
+.designTwo{
+	margin-top: 20px;
+	background-image: url("../images/design/decibel.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+	/*background-color: red;*/
+}
+
+
+.designThree{
+	margin-top: 20px;
+	background-image: url("../images/design/transistor-logo.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+	/*background-color: red;*/
+}
+
+.designFour{
+	margin-top: 20px;
+	background-image: url("../images/design/milk.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designFive{
+	margin-top: 20px;
+	background-image: url("../images/design/jason.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designSix{
+	margin-top: 20px;
+	background-image: url("../images/design/run.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designSeven{
+	margin-top: 20px;
+	background-image: url("../images/design/grind.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designEight{
+	margin-top: 20px;
+	background-image: url("../images/design/stars.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designNine{
+	margin-top: 20px;
+	background-image: url("../images/design/viva.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designTen{
+	margin-top: 20px;
+	background-image: url("../images/design/lights-camera-cash.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designEleven{
+	margin-top: 20px;
+	background-image: url("../images/design/500.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designTwelve{
+	margin-top: 20px;
+	background-image: url("../images/design/monster.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designThirteen{
+	margin-top: 20px;
+	background-image: url("../images/design/event-center.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designFourteen{
+	margin-top: 20px;
+	background-image: url("../images/design/truck.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designFifteen{
+	margin-top: 20px;
+	background-image: url("../images/design/lighter.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designSixteen{
+	margin-top: 20px;
+	background-image: url("../images/design/nasal.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designSeventeen{
+	margin-top: 20px;
+	background-image: url("../images/design/penny.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designEighteen{
+	margin-top: 20px;
+	background-image: url("../images/design/pez.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+.designNineteen{
+	margin-top: 20px;
+	background-image: url("../images/design/mercedes.jpg");
+	background-position: top;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 295px;
+}
+
+/*Photography*/
+
+.sectionSeven{
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

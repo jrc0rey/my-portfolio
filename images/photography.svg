@@ -1,0 +1,5 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path class="eyeOutline" d="M30 102.637s27.525-47.105 70-47.105 70 41.83 70 41.83-27.525 47.106-70 47.106-70-41.83-70-41.83z"/>
+  <circle class="iris" cx="100" cy="100" r="22.225"/>
+  <circle class="pupil" cx="100" cy="100" r="8.282"/>
+</svg>

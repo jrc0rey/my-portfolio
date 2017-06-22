@@ -1,0 +1,7 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path class="nib" d="M120.9 140.9l19.1-40.2L100 33l-40 67.7 19.1 40.2"/>
+  <path class="nibBase" d="M67.8 141.1h64.4"/>
+  <path class="baseFill" d="M78.6 140.9h42.9V167H78.6z"/>
+  <path class="nibVertLine" d="M100 37.6v54.2"/>
+  <circle class="nibCircle" cx="100" cy="97" r="9.8"/>
+</svg>
