@@ -115,20 +115,17 @@ h3{
 	display: flex;
 	width: 500px;
 	height: 200px;
-	// background-color: green;
 }
 
 .linkOne{
 	width: 120px;
 	height: 150px;
-	// background-color: yellow;
 }
 
 .linkTwo, .linkThree, .linkFour{
 	margin-left: 30px;
 	width: 120px;
 	height: 150px;
-	// background-color: yellow;
 }
 
 @media screen and (max-width:550px) {
@@ -138,13 +135,11 @@ h3{
 	flex-direction: column;
 	width: 500px;
 	height: 500px;
-	// background-color: green;
 	}
 
 	.linkOne{
 	width: 120px;
 	height: 150px;
-	// background-color: yellow;
 	}
 
 	.linkTwo, .linkThree, .linkFour{
@@ -152,7 +147,6 @@ h3{
 	margin-top: 10px;
 	width: 120px;
 	height: 150px;
-	// background-color: yellow;
 	}
 
 	.borderTwo{
@@ -165,7 +159,7 @@ h3{
 }
 
 .web{
-	visibility: hidden;
+	/*visibility: hidden;*/
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -180,7 +174,7 @@ h3{
 }
 
 .art-direction{
-	visibility: hidden;
+	/*visibility: hidden;*/
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -195,7 +189,7 @@ h3{
 }
 
 .design{
-	visibility: hidden;
+	/*visibility: hidden;*/
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -210,7 +204,7 @@ h3{
 }
 
 .photography{
-	visibility: hidden;
+	/*visibility: hidden;*/
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -225,14 +219,14 @@ h3{
 }
 
 .d{
-	display: none;
+	/*display: none;*/
 }
 
 /*Monitor*/
 
 .less{
-	stroke-dasharray: 50;
-	stroke-dashoffset: 0;
+	/*stroke-dasharray: 50;
+	stroke-dashoffset: 0;*/
 	fill:none;
 	stroke:#FF9999;
 	stroke-width:7;
@@ -252,8 +246,8 @@ h3{
 
 
 .close{
-	stroke-dasharray: 53;
-	stroke-dashoffset: 0;
+	/*stroke-dasharray: 53;
+	stroke-dashoffset: 0;*/
 	fill:none;
 	stroke:#FF9999;
 	stroke-width:7;stroke-linecap:round;
@@ -271,8 +265,8 @@ h3{
 
 .baseFill{
 	fill:#99DDFF;
-	animation: base-close 3s;
-	animation-play-state: paused;
+	/*animation: base-close 3s;
+	animation-play-state: paused;*/
 }
 
 @keyframes base-close{
@@ -314,8 +308,8 @@ h3{
 
 .eraser{
 	fill:#FF9999;
-	animation: eraser 3s;
-	animation-play-state: paused;
+	/*animation: eraser 3s;
+	animation-play-state: paused;*/
 }
 
 @keyframes eraser{
@@ -329,18 +323,18 @@ h3{
 
 .yellow{
     fill:#FFD580;
-    animation: eraser 3s;
-	animation-play-state: paused;
+    /*animation: eraser 3s;
+	animation-play-state: paused;*/
 }
 
-@keyframes yellow{
+/*@keyframes yellow{
 	from{
 		opacity: 0;
 	}
 	to{
 		opacity: 1;
 	}
-}   
+}  */ 
 
 .tip{
     fill:#231F20;
@@ -348,14 +342,14 @@ h3{
     animation-play-state: paused;
 }
 
-@keyframes tip{
+/*@keyframes tip{
 	from{
 		opacity: 0;
 	}
 	to{
 		opacity: 1;
 	}
-}    
+}    */
 
 .pencilOutline{
     fill:none;
@@ -365,7 +359,7 @@ h3{
     stroke-miterlimit:10;
 }
 
-@keyframes draw-pencil{
+/*@keyframes draw-pencil{
 	from{
 		stroke-dashoffset: 100;
 		stroke-dasharray: 2;
@@ -374,7 +368,7 @@ h3{
 		stroke-dashoffset: 205;
 		stroke-dasharray: 52;
 	}
-}   
+}   */
 
 .pencilLines{
 	fill:none;stroke:#231F20;
@@ -453,10 +447,15 @@ h3{
 /*Blurb*/
 
 .blurb{
-	margin-top: 10px;
+	margin-bottom: 0;
+	margin-top: 20px;
 	font-family: 'Merriweather', serif;
 	font-size: 20px;
 	color: black;
+}
+
+.idea{
+	color: #FF9999;
 }
 
 

@@ -51,48 +51,48 @@ $('#Layer_4').click(function() {
 
  // Icon animations
 
-$('.less, .close, .baseFill').hide().attr('hidden','true')
-$('.eraser, .yellow, .tip, .pencilLines').hide().attr('hidden','true')
+// $('.less, .close, .baseFill').hide().attr('hidden','true')
+// $('.eraser, .yellow, .tip, .pencilLines').hide().attr('hidden','true')
 
-$('#Layer_1').mouseenter(function(){
-	$('.web').css('visibility', 'visible')
-	$('.less').css('animation-play-state', 'running')
-	$('.close').css('animation-play-state', 'running')
-	$('.baseFill').css('animation-play-state', 'running')
-	$('.less, .close, .baseFill').show().attr('hidden','false')
-});
+// $('#Layer_1').mouseenter(function(){
+// 	$('.web').css('visibility', 'visible')
+// 	$('.less').css('animation-play-state', 'running')
+// 	$('.close').css('animation-play-state', 'running')
+// 	$('.baseFill').css('animation-play-state', 'running')
+// 	$('.less, .close, .baseFill').show().attr('hidden','false')
+// });
 
-$('#Layer_1').mouseleave(function(){
-	$('.web').css('visibility', 'hidden')
-	// $('.less, .close, .baseFill').hide().attr('hidden','true')
-});
+// $('#Layer_1').mouseleave(function(){
+// 	$('.web').css('visibility', 'hidden')
+// 	// $('.less, .close, .baseFill').hide().attr('hidden','true')
+// });
 
-$('#Layer_2').mouseenter(function(){
-	$('.art-direction').css('visibility', 'visible')
-	$('.eraser, .yellow, .tip, .pencilLines').css('animation-play-state', 'running')
-	$('.eraser, .yellow, .tip, .pencilLines').show().attr('hidden','false')
-});
+// $('#Layer_2').mouseenter(function(){
+// 	$('.art-direction').css('visibility', 'visible')
+// 	$('.eraser, .yellow, .tip, .pencilLines').css('animation-play-state', 'running')
+// 	$('.eraser, .yellow, .tip, .pencilLines').show().attr('hidden','false')
+// });
 
-$('#Layer_2').mouseleave(function(){
-	$('.art-direction').css('visibility', 'hidden')
-	// $('.eraser, .yellow, .tip, .pencilLines').hide().attr('hidden','true')
-});
+// $('#Layer_2').mouseleave(function(){
+// 	$('.art-direction').css('visibility', 'hidden')
+// 	// $('.eraser, .yellow, .tip, .pencilLines').hide().attr('hidden','true')
+// });
 
-$('#Layer_3').mouseenter(function(){
-	$('.design').css('visibility', 'visible')
-});
+// $('#Layer_3').mouseenter(function(){
+// 	$('.design').css('visibility', 'visible')
+// });
 
-$('#Layer_3').mouseleave(function(){
-	$('.design').css('visibility', 'hidden')
-});
+// $('#Layer_3').mouseleave(function(){
+// 	$('.design').css('visibility', 'hidden')
+// });
 
-$('#Layer_4').mouseenter(function(){
-	$('.photography').css('visibility', 'visible')
-});
+// $('#Layer_4').mouseenter(function(){
+// 	$('.photography').css('visibility', 'visible')
+// });
 
-$('#Layer_4').mouseleave(function(){
-	$('.photography').css('visibility', 'hidden')
-});
+// $('#Layer_4').mouseleave(function(){
+// 	$('.photography').css('visibility', 'hidden')
+// });
 
 
 
